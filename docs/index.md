@@ -4,7 +4,7 @@ Welcome to your Java learning hub! Explore easy tutorials, awesome books, and fu
 
 # Java Core
 
-- ## [1-Whats is Java](1-Whats%20is%20Java.md)
+- ## [1-Whats is Java](Core%20Java/1-Whats%20is%20Java.md)
     
 - ##  [2-IntelliJ IDEA, Installation and Configuration](2-IntelliJ%20IDEA,%20Installation%20and%20Configuration.md)
     
