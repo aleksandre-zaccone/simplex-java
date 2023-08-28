@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Core Java/IntelliJ IDEA, Installation and Configuration.md",
+                "file": "docs/Core Java/2-IntelliJ IDEA, Installation and Configuration.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Core Java/IntelliJ IDEA, Installation and Configuration.md",
+                "file": "docs/Core Java/2-IntelliJ IDEA, Installation and Configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Core Java/IntelliJ IDEA, Installation and Configuration.md",
+                "file": "docs/Core Java/2-IntelliJ IDEA, Installation and Configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Core Java/IntelliJ IDEA, Installation and Configuration.md"
+                "file": "docs/Core Java/2-IntelliJ IDEA, Installation and Configuration.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "f781837f469f5a7c",
   "lastOpenFiles": [
-    "docs/Core Java/Whats is Java.md",
+    "docs/Core Java/1-Whats is Java.md",
     "docs/index.md",
+    "docs/Core Java/2-IntelliJ IDEA, Installation and Configuration.md",
     "docs/Advanced java/Tutorials.md",
-    "docs/Core Java/IntelliJ IDEA, Installation and Configuration.md",
     "docs/Spring Boot/Book 3333.md",
     "docs/assets/logo.png",
     "docs/assets",
