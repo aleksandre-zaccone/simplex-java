@@ -25,9 +25,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/FOLDER 3/Book 3.md",
+                "file": "docs/index.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/FOLDER 1/Book 2.md",
+                "file": "docs/FOLDER 1/Book 111.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f8d4f936a6262b32",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/FOLDER 3/Book 3.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/FOLDER 3/Book 3.md",
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/FOLDER 3/Book 3.md"
+                "file": "docs/index.md"
               }
             }
           }
@@ -171,16 +172,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "554b2780e719a04a",
+  "active": "ae80c0f956b61caf",
   "lastOpenFiles": [
-    "docs/FOLDER 3",
+    "docs/FOLDER 2/Tutorials.md",
     "docs/FOLDER 1/Books.md",
-    "docs/FOLDER 3/Book 3.md",
+    "docs/FOLDER 1/Book 111.md",
+    "docs/FOLDER 3/Book 3333.md",
+    "docs/assets/logo.png",
+    "docs/assets",
+    "assets/logo.png",
+    "assets",
+    "docs/FOLDER 3",
     "workflows",
-    "docs/FOLDER 1/Book 2.md",
     "docs/FOLDER 2",
     "docs/FOLDER 1",
-    "docs/FOLDER 2/Tutorials.md",
     "docs/index.md"
   ]
 }
