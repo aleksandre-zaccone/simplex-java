@@ -514,6 +514,8 @@ The complete list of supported frameworks can be found [here](https://projectlom
 
 
 - [Lombok Project Official site](https://projectlombok.org/)
+
 - Lombok tutorials:
 	- [Java Lombok Tutorial by Amigoscode](https://www.youtube.com/watch?v=z7bsNF2Dtf0)
+
 
