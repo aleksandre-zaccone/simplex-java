@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/FOLDER 1/Books.md",
+                "file": "docs/FOLDER 3/Book 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/FOLDER 1/Books.md",
+                "file": "docs/FOLDER 3/Book 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/FOLDER 1/Books.md",
+                "file": "docs/FOLDER 3/Book 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/FOLDER 1/Books.md"
+                "file": "docs/FOLDER 3/Book 3.md"
               }
             }
           }
@@ -173,10 +173,11 @@
   },
   "active": "554b2780e719a04a",
   "lastOpenFiles": [
-    "workflows",
-    "Untitled",
-    "docs/FOLDER 1/Book 2.md",
+    "docs/FOLDER 3",
     "docs/FOLDER 1/Books.md",
+    "docs/FOLDER 3/Book 3.md",
+    "workflows",
+    "docs/FOLDER 1/Book 2.md",
     "docs/FOLDER 2",
     "docs/FOLDER 1",
     "docs/FOLDER 2/Tutorials.md",
