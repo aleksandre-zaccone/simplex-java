@@ -5,7 +5,6 @@
 Java is a powerful programming language, but sometimes it requires a lot of words to do simple things. This can make your code long and repetitive, especially when you have to do things like creating `getters` and `setters`. This extra code doesn't really help your program do its main job. Writing this kind of code is not only boring but also takes up a lot of time. To fix this problem, we can use special tools and libraries that make it easier and faster to write code. And that's where Lombok comes in!
 
 Lombok is a helpful tool for Java that solves the problem of writing the same code over and over. It does this by using special notes (called annotations) so you don't have to write common code that's usually repeated and takes a lot of time. Lombok works with your code and creates the necessary building blocks automatically based on these annotations. This means you can avoid making certain parts of your code, like constructors, equals, and hashCode functions, which saves you a lot of time. It lets you focus more on the important parts of your project. Plus, using Lombok keeps your code neat, tidy, and easier to read and work with.
-
 <br>
 # **Install Lombok**
 
@@ -21,6 +20,7 @@ Let's take a look at some of the most frequently used Lombok annotations. I'll p
 If you want to explore more detailed examples and get additional support, you can click on each annotation to visit its page in the official Lombok documentation.
 
 ## @Getter and @Setter 
+
 Let's dive into the `@Getter` and `@Setter` annotations. When you apply the `@Getter` annotation to a field, like "cardNumber," Lombok will automatically generate a method called `getCardNumber()`. This method simply retrieves the value stored in the "cardNumber" field.
 
 On the other hand, when you use the `@Setter` annotation on the "cardNumber" field, Lombok will create a corresponding setter method called `setCardNumber()`. This setter method takes a parameter of the same type as the "cardNumber" field and assigns it to the field.
@@ -83,6 +83,7 @@ public class CreditCard {
 
 
 ## @NoArgsConstructor, @AllArgsConstructor and  @RequiredArgsConstructor
+
 When you use the `@NoArgsConstructor` annotation, it generates a constructor without any parameters. Conversely, by applying `@AllArgsConstructor`, a constructor is produced with parameters that match each field in the class. 
 Meanwhile, `@RequiredArgsConstructor` creates a constructor customized for fields needing special handling – like non-initialized final fields or fields marked as `@NonNull` but not initialized in their declaration. Notably, these annotations don't affect static fields.
 
@@ -124,6 +125,7 @@ public class CreditCard {
 ```
 
 ## @ToString
+
 The `@ToString` annotation generates the `toString()` method, simplifying object printing. 
 
 Example with Lombok: 
@@ -152,6 +154,7 @@ public class CreditCard {
 
 
 ## @EqualsAndHashCode
+
 The `@EqualsAndHashCode` annotation can be applied to any class definition, enabling Lombok to automatically generate implementations of the `equals(Object other)` and `hashCode()` methods. By default, these generated methods consider all non-static, non-transient fields. However, you have the flexibility to tailor this behavior using two primary options.
 1. Using `@EqualsAndHashCode.Include` and `@EqualsAndHashCode.Exclude`: These annotations can be selectively applied to specific type members, allowing you to include or exclude fields or methods from the generated `equals` and `hashCode` calculations.
     
@@ -234,6 +237,7 @@ public class CreditCard {
 If applying `@EqualsAndHashCode` to a class that extends another, this feature gets a bit trickier. Normally, auto-generating an `equals` and `hashCode` method for such classes is a bad idea, as the superclass also defines fields, which also need equals/hashCode code but this code will not be generated. For more details  check this [documentation](https://projectlombok.org/features/EqualsAndHashCode).
 
 ## @NonNull
+
 The `@NonNull` annotation generates null-checks for constructor parameters.
 
 Example with Lombok:
@@ -268,6 +272,7 @@ public class CreditCard {
 ```
 
 ## @Data
+
 The `@Data` annotation combines `@ToString`, `@EqualsAndHashCode`, `@Getter`, `@Setter`, and `@RequiredArgsConstructor`.
 
 With Lombok:
@@ -303,11 +308,12 @@ public class CreditCard {
 ```
 
 ## @Value
+
 The annotation `@Value` represents the immutable version of `@Data`. By default, Lombok designates all fields as private and final. It omits the generation of setters and declares the class as final, preventing inheritance. Much like `@Data`, it also generates implementations for `toString()`, `equals()`, and `hashCode()`.
 
 Example with Lombok:
 ```java
-@Data 
+@Value
 public class CreditCard { 
 	private String cardNumber; 
 	private String cardHolderName; 
@@ -366,13 +372,12 @@ public final class CreditCard {
 
 
 ## @SneakyThrows
+
 The `@SneakyThrows` annotation enables you to throw checked exceptions without explicitly declaring them in your method's `throws` clause, as you normally would. This annotation allows you to sidestep the need for mandatory `try-catch` blocks by handling checked exceptions silently. It's important to note that Lombok doesn't disregard, wrap, replace, or modify the thrown checked exception. Instead, it tricks the compiler. This works because, at the level of the JVM (Java Virtual Machine) class file, all exceptions can be thrown regardless of the `throws` clause in your methods. However, it's crucial to exercise caution when using this annotation, as it can be risky. 
 For detailed guidance on when and how to use it, refer to [this](https://projectlombok.org/features/SneakyThrows) page in the official Lombok documentation.
 
 Example with Lombok:
 ```java
-import lombok.SneakyThrows;
-
 public class SneakyThrowsDemo {
     public static void main(String[] args) {
         try {
@@ -414,6 +419,7 @@ public class SneakyThrowsDemo {
 In this version, without the `@SneakyThrows` annotation, we manually surround the exception-throwing code with a `try-catch` block within the `doSomething()` method. This is to handle the checked exception `Exception` that is thrown.
 
 ## [`@Builder`](https://projectlombok.org/features/Builder)
+
 When you're faced with the task of creating objects following a step-by-step construction pattern, like `CreditCard.builder().cardNumber("1234567890123456").cardholderName("John Doe").expirationDate("12/24").build();`, the `@Builder` annotation can come in handy. This becomes especially beneficial when dealing with classes that have numerous fields. Rather than using a constructor with an abundance of parameters, this approach provides a more readable alternative. By incorporating the `@Builder` annotation, you delegate the task of generating builders to Lombok.
 
 Applying the `@Builder` annotation to a class triggers Lombok to generate a class that adheres to the builder pattern mentioned earlier. For instance, if you annotate the `CreditCard` class, Lombok automatically produces a `CreditCardBuilder` class. Since your builder's behavior could be intricate or highly customized, Lombok provides several parameters to help you achieve your desired outcome. You can explore all these parameters [here](https://projectlombok.org/features/Builder).
@@ -493,6 +499,7 @@ public class Main {
 As you can see, Lombok's `@Builder` simplifies the creation of builder classes, reducing the boilerplate code and enhancing readability.
 
 ## [`@Log`](https://projectlombok.org/features/log)
+
 Setting up a logger instance in each class for logging purposes is a common practice, often involving repetitive code. However, Lombok's `@Log` annotation offers a solution. When you annotate a class with `@Log`, Lombok takes care of generating a static final `log` field within the class. 
 This field is initialized according to your chosen logging library's requirements. Lombok provides a dedicated annotation for several popular logging frameworks, making it convenient for developers. 
 Example:
@@ -504,6 +511,7 @@ The complete list of supported frameworks can be found [here](https://projectlom
 
 <br>
 # **Lombok additional Info**
+
 
 - [Lombok Project Official site](https://projectlombok.org/)
 - Lombok tutorials:
