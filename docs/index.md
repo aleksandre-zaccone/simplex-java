@@ -12,7 +12,7 @@ Welcome to your Java learning hub! Explore easy tutorials, awesome books, and fu
 
 
 
-# [[Principles]]  
+# [Principles](../Principles.md)
   
 
 # Java Books
