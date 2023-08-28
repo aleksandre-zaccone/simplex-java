@@ -1,21 +1,21 @@
-# Welcome to SIMPLEX JAVA !
+# **Home**
 
-Welcome to your Java learning hub! Explore easy tutorials, awesome books, and fun courses. Join us and let's Java together !
+Welcome to your Java learning hub! 
+
+Explore easy tutorials, awesome books, and fun courses. 
+
+Join us and let's Java together !
 
 <br>
-# Java Core
+# **Java Core**
 
-- ## [1. Whats is Java](Core%20Java/1.%20Whats%20is%20Java.md)
-	
-- ## [2-IntelliJ IDEA, Installation and Configuration](Core%20Java/2-IntelliJ%20IDEA,%20Installation%20and%20Configuration.md)
-
+## [1. Whats is Java](Core%20Java/1.%20Whats%20is%20Java.md)
+## [2-IntelliJ IDEA, Installation and Configuration](Core%20Java/2-IntelliJ%20IDEA,%20Installation%20and%20Configuration.md)
 
 
+<br>
 
-# [Principles](Principles.md)
-  
-
-# Java Books
+# **Java Books**
 
 - [Core Java Volume I – Fundamentals](http://geni.us/YHJX7v)
 - [Effective Java](http://geni.us/RuQ6d)
@@ -27,10 +27,16 @@ Welcome to your Java learning hub! Explore easy tutorials, awesome books, and fu
 
 
 
-# Java Courses
+# **Java Courses**
 
-  
+  <br>
 
-# Java Tutorials
+# **Java Tutorials**
 
 - ## [Java Tutorial by Simplex-Java](app://obsidian.md/Tutorials.md)
+
+<br>
+# **Other**
+## [Principles](Principles.md)
+  
+

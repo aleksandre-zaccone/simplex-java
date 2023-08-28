@@ -1,19 +1,21 @@
-
-#lombok #java
-# What is Lombok
+# **Lombok Project**
+<br>
+# **What is Lombok**
 
 Java is a powerful programming language, but sometimes it requires a lot of words to do simple things. This can make your code long and repetitive, especially when you have to do things like creating `getters` and `setters`. This extra code doesn't really help your program do its main job. Writing this kind of code is not only boring but also takes up a lot of time. To fix this problem, we can use special tools and libraries that make it easier and faster to write code. And that's where Lombok comes in!
 
 Lombok is a helpful tool for Java that solves the problem of writing the same code over and over. It does this by using special notes (called annotations) so you don't have to write common code that's usually repeated and takes a lot of time. Lombok works with your code and creates the necessary building blocks automatically based on these annotations. This means you can avoid making certain parts of your code, like constructors, equals, and hashCode functions, which saves you a lot of time. It lets you focus more on the important parts of your project. Plus, using Lombok keeps your code neat, tidy, and easier to read and work with.
 
-# Install Lombok
+<br>
+# **Install Lombok**
 
 We can install Lombok in different ways:
 - manually  - add dependency int the project for Maven or Gradle
 - via Lombok plugin - add Lombok plugin if you use IntelliJ IDEA
 Lombok requires annotation processing to work properly. Make sure that annotation processing is enabled in your IDE or build tool settings.
 
-# Lombok Annotations
+<br>
+# **Lombok Annotations**
 
 Let's take a look at some of the most frequently used Lombok annotations. I'll provide an explanation for each annotation, along with a comparison to the equivalent Java code. 
 If you want to explore more detailed examples and get additional support, you can click on each annotation to visit its page in the official Lombok documentation.
@@ -500,11 +502,10 @@ Example:
 
 The complete list of supported frameworks can be found [here](https://projectlombok.org/features/log).
 
+<br>
+# **Lombok additional Info**
 
-# Lombok additional Info
-
-Official site - https://projectlombok.org/
-
-Lombok tutorials:
-- [Java Lombok Tutorial by Amigoscode](https://www.youtube.com/watch?v=z7bsNF2Dtf0)
+- [Lombok Project Official site](https://projectlombok.org/)
+- Lombok tutorials:
+	- [Java Lombok Tutorial by Amigoscode](https://www.youtube.com/watch?v=z7bsNF2Dtf0)
 

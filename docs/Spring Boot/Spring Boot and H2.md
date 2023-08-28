@@ -1,5 +1,6 @@
-#spring_boot #spring_data_jpa #H2
-# Project Details
+# **Spring Boot and H2**
+
+# **Project Details**
 
 Project Name: Product Management System
 
@@ -19,19 +20,21 @@ Tools Used:
     
 * H2
     
-
-# What is H2 Database
+<br>
+# **What is H2 Database**
 
 H2 is a lightweight, open-source, Java-based relational database engine. It is designed to be fast and embeddable, making it an excellent choice for testing and development purposes. One of its notable features is its ability to run in-memory, meaning that data is stored in memory rather than persisted to disk. This makes it extremely fast for temporary data storage and manipulation.
 
 Official Site - [https://www.h2database.com/html/main.html](https://www.h2database.com/html/main.html)
 
-# How to set-up and use H2 with Spring boot
+<br>
+# **How to set-up and use H2 with Spring boot**
 
 Here's a step-by-step tutorial on how to set up and use the H2 in-memory database with Spring Boot and Java.
 
 You can download the project from Git - [https://github.com/aleksandre-zaccone/SpringBoot-H2-Tutorial](https://github.com/aleksandre-zaccone/SpringBoot-H2-Tutorial)
 
+<br>
 ## Step 1: Create a Spring Boot Project:
 
 If you don't have a Spring Boot project already, you can create one using Spring Initializr (https://start.spring.io/). Include the necessary dependencies: Spring Web and H2 Database.

@@ -1,8 +1,9 @@
-# Overview of IntelliJ IDEA
+# **Overview of IntelliJ IDEA**
 
 IntelliJ IDEA is an Integrated Development Environment (IDE) designed for JVM languages to enhance developer productivity. It automates routine tasks with clever code completion, static code analysis, and refactoring, allowing you to focus on the positive aspects of software development, making it not just efficient, but also enjoyable.
 
-# Multi-platform Support
+<br>
+# **Multi-platform Support**
 
 IntelliJ IDEA is a cross-platform IDE providing a consistent experience across Windows, macOS, and Linux. The easiest way is to use [JetBrains Toolbox]( https://www.jetbrains.com/toolbox-app/)
 
@@ -14,15 +15,18 @@ sudo tar -xzf jetbrains-toolbox-1.17.7391.tar.gz -C /opt
 ```
 Execute the jetbrains-toolbox binary from the extracted directory to run the Toolbox App.
 
-# Supported Languages
+<br>
+# **Supported Languages**
 
 IntelliJ IDEA is designed for JVM languages ([Java](https://www.java.com/en/), [Kotlin](https://kotlinlang.org/), [Scala](https://www.scala-lang.org/), [Groovy](https://groovy-lang.org/)) but can support multiple languages, tools, frameworks, and technologies through plugins.
 
-# Plugins and Themes
+<br>
+# **Plugins and Themes**
 IntelliJ has a marketplace, where you can download plugins and themes  -[JetBrains Marketplace](https://plugins.jetbrains.com/)
 
 My top Plugins:
-- [Lombok](https://plugins.jetbrains.com/plugin/6317-lombok)
+
+- [Lombok](https://plugins.jetbrains.com/plugin/6317-lombok) - [Lombok Tutorial](../Tools%20and%20Libraries/Lombok.md)
 - [SonarLint](https://plugins.jetbrains.com/plugin/7973-sonarlint)
 - [AWS ToolKit](https://plugins.jetbrains.com/plugin/11349-aws-toolkit)
 - [Docker](https://plugins.jetbrains.com/plugin/7724-docker)
@@ -33,11 +37,14 @@ My top Plugins:
 - [Randomness](https://plugins.jetbrains.com/plugin/9836-randomness)
 
 My favorite Theme:
+
 - [One Dark](https://plugins.jetbrains.com/plugin/11938-one-dark-theme1)
 
-# IntelliJ IDEA Editions
+<br>
+# **IntelliJ IDEA Editions**
 
 IntelliJ IDEA comes in two editions:
+
 - [IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/download/): A full-featured Java and Kotlin IDE with support for other languages, server-side and front-end frameworks, databases, profiling tools, and more.
 - [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/?section=linux): A free IDE with essential features for Java and Kotlin enthusiasts.
 
@@ -49,11 +56,14 @@ I recommend Ultimate edition because it has some additional everyday features li
 - Thymeleaf, Freemarker, React, React Native - support fronted languages
 - Settings synchronization via JetBrains Account - you can synchronize almost all settings between your machines under the same account
 
-# User Interface
+<br>
+# **User Interface**
 
-IntelliJ IDEA provides an editor-centric environment that adapts to your context and minimizes disruptions. For more details, about how to use  IntelliJ, I recommend this  tutorial - [Amigoscode - IntelliJ IDEA Full Course](https://www.youtube.com/watch?v=yefmcX57Eyg)
+IntelliJ IDEA provides an editor-centric environment that adapts to your context and minimizes disruptions. For more details, about how to use  IntelliJ, I recommend this  tutorial - [Amigoscode - IntelliJ IDEA Full Course](https://www.youtube.com/watch?v=yefmcX57Eyg) 
 
-# IntelliJ IDEA - TOP Features
+<br>
+
+# **IntelliJ IDEA - TOP Features**
 
 - Customizable Appearance
 - Handy Shortcuts
@@ -71,7 +81,8 @@ IntelliJ IDEA provides an editor-centric environment that adapts to your context
 - Version Control (GIT)
 - Local History
 
-# IntelliJ Tutorials
+<br>
+# **IntelliJ Tutorials**
 - [Jetbrains IntelliJ Tutorial - FREE](https://www.jetbrains.com/idea/guide/tutorials/)
 - [IntelliJ IDEA Developer Guide By Amigoscode](https://amigoscode.com/p/intellij)
 - [IntelliJ IDEA Course by Amigoscode - FREE ](https://www.youtube.com/watch?v=yefmcX57Eyg)

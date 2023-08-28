@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "66f6fcececa09ade",
+        "id": "6e69c2d836481ccb",
         "type": "tabs",
         "children": [
           {
-            "id": "b8393d42bfad84d6",
+            "id": "c85eaf1c1b7d3369",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Principles.md",
+                "file": "docs/Tools and Libraries/Lombok.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Principles.md",
+                "file": "docs/Tools and Libraries/Lombok.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Principles.md",
+                "file": "docs/Tools and Libraries/Lombok.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Principles.md"
+                "file": "docs/Tools and Libraries/Lombok.md"
               }
             }
           }
@@ -146,18 +146,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b8393d42bfad84d6",
+  "active": "554b2780e719a04a",
   "lastOpenFiles": [
+    "docs/Spring Boot/Spring Boot and H2.md",
+    "docs/Core Java/2-IntelliJ IDEA, Installation and Configuration.md",
+    "docs/Core Java/1. Whats is Java.md",
+    "docs/Advanced java/Tutorials.md",
     "docs/index.md",
     "docs/Principles.md",
-    "docs/Tools and Libraries/Markdown Tutorial.md",
     "docs/Tools and Libraries/Lombok.md",
-    "docs/Spring Boot/Spring Boot and H2.md",
+    "docs/Tools and Libraries/Markdown Tutorial.md",
     "docs/Tools and Libraries",
     "Personal Notes",
-    "docs/Core Java/1. Whats is Java.md",
-    "docs/Core Java/2-IntelliJ IDEA, Installation and Configuration.md",
-    "docs/Advanced java/Tutorials.md",
     "docs/assets/logo.png",
     "docs/assets",
     "assets/logo.png",

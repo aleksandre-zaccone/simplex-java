@@ -7,6 +7,12 @@
 ##### Heading level 5
 ###### Heading level 6
 ```
+# Heading level 1
+## Heading level 2
+### Heading level 3
+#### Heading level 4
+##### Heading level 5
+###### Heading level 6
 
 # Paragraphs
 To create paragraphs, use a blank line to separate one or more lines of text.
@@ -17,19 +23,19 @@ To create paragraphs, use a blank line to separate one or more lines of text.
 ```
 # Emphasis
 ```
-**bold text**
+__bold text__
 ```
-**bold text**
+__bold text__
 
 ```
-*Italic*
+_Italic_
 ```
-*Italic*
+_Italic_
 
 ```
-**bold and italic***
+___bold and italic___ 
 ```
-**bold and italic
+___bold and italic___
 
 ```
 > Blockquotes with Multiple Paragraphs
