@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Core Java/2-IntelliJ IDEA, Installation and Configuration.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "d2dd499ea473157e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Principles.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Core Java/2-IntelliJ IDEA, Installation and Configuration.md",
+                "file": "Principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Core Java/2-IntelliJ IDEA, Installation and Configuration.md",
+                "file": "Principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Core Java/2-IntelliJ IDEA, Installation and Configuration.md"
+                "file": "Principles.md"
               }
             }
           }
@@ -146,10 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f781837f469f5a7c",
+  "active": "d2dd499ea473157e",
   "lastOpenFiles": [
     "docs/index.md",
-    "docs/Core Java/1-Whats is Java.md",
+    "Principles.md",
+    "Personal Notes",
+    "docs/Core Java/1. Whats is Java.md",
     "docs/Core Java/2-IntelliJ IDEA, Installation and Configuration.md",
     "docs/Advanced java/Tutorials.md",
     "docs/Spring Boot/Book 3333.md",
