@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Principles.md",
+                "file": "docs/Tools and Libraries/Markdown Tutorial.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Principles.md",
+                "file": "docs/Tools and Libraries/Markdown Tutorial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Principles.md",
+                "file": "docs/Tools and Libraries/Markdown Tutorial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Principles.md"
+                "file": "docs/Tools and Libraries/Markdown Tutorial.md"
               }
             }
           }
@@ -146,12 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "554b2780e719a04a",
+  "active": "5750c6d939ea263d",
   "lastOpenFiles": [
+    "docs/Tools and Libraries/Lombok.md",
+    "docs/Tools and Libraries/Markdown Tutorial.md",
+    "docs/Principles.md",
     "docs/Spring Boot/Spring Boot and H2.md",
     "docs/Tools and Libraries",
     "docs/index.md",
-    "docs/Principles.md",
     "Personal Notes",
     "docs/Core Java/1. Whats is Java.md",
     "docs/Core Java/2-IntelliJ IDEA, Installation and Configuration.md",
