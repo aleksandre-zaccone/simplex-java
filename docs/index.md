@@ -7,6 +7,7 @@ Explore easy tutorials, awesome books, and fun courses.
 Join us and let's Java together !
 
 <br>
+
 # **Java Core**
 
 ## [1. Whats is Java](Core%20Java/1.%20Whats%20is%20Java.md)
@@ -27,9 +28,10 @@ Join us and let's Java together !
 
 
 <br>
+
 # **Java Courses**
 
-  <br>
+<br>
 
 # **Java Tutorials**
 
@@ -37,7 +39,9 @@ Join us and let's Java together !
 
 
 <br>
+
 # **Other**
+
 ## [Principles](Principles.md)
   
 
