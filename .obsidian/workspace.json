@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Spring Boot/Spring Boot and Exceptions Handling.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Spring Boot/Spring Boot and Exceptions Handling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Spring Boot/Spring Boot and Exceptions Handling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md"
+                "file": "docs/Spring Boot/Spring Boot and Exceptions Handling.md"
               }
             }
           },
@@ -158,8 +158,8 @@
   },
   "active": "871da1d9a35d1d35",
   "lastOpenFiles": [
-    "docs/Principles.md",
     "docs/index.md",
+    "docs/Principles.md",
     "docs/Tools and Libraries/Lombok.md",
     "docs/Tools and Libraries/Lombok.md~",
     "docs/Core Java/2. IntelliJ IDEA, Installation and Configuration.md",

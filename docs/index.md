@@ -26,6 +26,13 @@ Join us and let's Java together !
 - [Java Performance: The Definite Guide](http://geni.us/B6XAX)
 - [Clean Code – A Handbook of Agile Software Craftsmanship](http://geni.us/gteGs5m)
 
+<br>
+
+# **Spring Boot**
+
+- [Spring Boot and Exceptions Handling](Spring%20Boot/Spring%20Boot%20and%20Exceptions%20Handling.md)
+
+<br>
 
 # **Java Courses**
 
