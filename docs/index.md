@@ -34,6 +34,6 @@ Join us and let's Java together !
 
 # **Other**
 
-## [Principles](Principles.md)
+- [Principles](Principles.md)
   
 
