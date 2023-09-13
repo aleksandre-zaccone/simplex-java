@@ -33,12 +33,6 @@ Join us and let's Java together !
 
 <br>
 
-# **Java Tutorials**
-
-- ## [Java Tutorial by Simplex-Java](app://obsidian.md/Tutorials.md)
-
-
-<br>
 
 # **Other**
 
