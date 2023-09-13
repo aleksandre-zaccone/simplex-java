@@ -27,8 +27,6 @@ Join us and let's Java together !
 - [Clean Code – A Handbook of Agile Software Craftsmanship](http://geni.us/gteGs5m)
 
 
-
-
 # **Java Courses**
 
 <br>
