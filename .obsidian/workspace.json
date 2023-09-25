@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c524ebebdfa92b2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Git/Git Commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Spring Boot/Spring Boot and Exceptions Handling.md",
+                "file": "docs/Git/Git Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Spring Boot/Spring Boot and Exceptions Handling.md",
+                "file": "docs/Git/Git Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Spring Boot/Spring Boot and Exceptions Handling.md"
+                "file": "docs/Git/Git Commands.md"
               }
             }
           },
@@ -156,8 +169,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "871da1d9a35d1d35",
+  "active": "c524ebebdfa92b2c",
   "lastOpenFiles": [
+    "docs/Spring Boot/Spring Boot and Exceptions Handling.md",
+    "docs/Git/Git Commands.md",
+    "docs/Git",
     "docs/index.md",
     "docs/Principles.md",
     "docs/Tools and Libraries/Lombok.md",
