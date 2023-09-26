@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Tools and Libraries/Markdown Tutorial.md",
-                "mode": "source",
+                "file": "docs/Git/Git Commands.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Tools and Libraries/Markdown Tutorial.md",
+                "file": "docs/Git/Git Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Tools and Libraries/Markdown Tutorial.md",
+                "file": "docs/Git/Git Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Tools and Libraries/Markdown Tutorial.md"
+                "file": "docs/Git/Git Commands.md"
               }
             }
           },
@@ -171,8 +171,9 @@
   },
   "active": "c524ebebdfa92b2c",
   "lastOpenFiles": [
-    "docs/Git/Git Commands.md",
     "docs/Spring Boot/Spring Boot and Exceptions Handling.md",
+    "docs/Git/Git Commands.md",
+    "docs/Tools and Libraries/Markdown Tutorial.md",
     "docs/Git",
     "docs/index.md",
     "docs/Principles.md",
@@ -182,7 +183,6 @@
     "docs/Spring Boot/Spring Boot and H2.md",
     "docs/Core Java/1. Whats is Java.md",
     "docs/Advanced java/Tutorials.md",
-    "docs/Tools and Libraries/Markdown Tutorial.md",
     "docs/Tools and Libraries",
     "Personal Notes",
     "docs/assets/logo.png",
