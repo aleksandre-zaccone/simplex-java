@@ -1,5 +1,5 @@
 # **Lombok Project**
-<br>
+
 # **What is Lombok**
 
 Java is a powerful programming language, but sometimes it requires a lot of words to do simple things. This can make your code long and repetitive, especially when you have to do things like creating `getters` and `setters`. This extra code doesn't really help your program do its main job. Writing this kind of code is not only boring but also takes up a lot of time. To fix this problem, we can use special tools and libraries that make it easier and faster to write code. And that's where Lombok comes in!
