@@ -1,24 +1,25 @@
 # **ZSH Shell Configuration**
 
-# **Configure Zsh, Oh-My-Zsh, and Powerlevel10k on Ubuntu**
-
-Write this tutorial to show what and how I use on my Ubuntu laptop for everyday work. I want to share this configuration with others because it will be helpful for configuring their shell and using it efficiently.
-This tutorial will guide you through the process of installing and configuring Zsh, Oh-My-Zsh, and the Powerlevel10k theme on your Ubuntu system. These tools can greatly enhance your command-line experience and make your everyday work more efficient.
+I've created this tutorial to demonstrate how I use my Ubuntu laptop for everyday work and to share 
+my configuration with others. This guide will help you set up and optimize your shell environment 
+for increased efficiency on your Ubuntu system. You'll learn how to install and configure Zsh, 
+Oh-My-Zsh, and the Powerlevel10k theme. These tools will greatly enhance your command-line experience 
+and streamline your everyday work.
 
 ## **What is Zsh?**
 
-**Zsh**, short for **Z Shell**, is a powerful and highly customizable Unix shell that can be used as an interactive login shell and as a powerful scripting language. It offers numerous features, including improved tab completion, better scripting capabilities, and a wide range of plugins and themes to enhance your terminal experience.
+`Zsh`, short for Z Shell, is a powerful and highly customizable Unix shell that can be used as an interactive login shell and as a powerful scripting language. It offers numerous features, including improved tab completion, better scripting capabilities, and a wide range of plugins and themes to enhance your terminal experience.
 
 ## **What is Oh-My-Zsh?**
 
-**Oh-My-Zsh** is an open-source framework for managing your Zsh configuration. It comes with a wide variety of themes, plugins, and features designed to make your command-line interface more productive and enjoyable. Oh-My-Zsh simplifies the process of customizing Zsh and provides an easy way to add plugins and themes.
+`Oh-My-Zsh` is an open-source framework for managing your Zsh configuration. It comes with a wide variety of themes, plugins, and features designed to make your command-line interface more productive and enjoyable. Oh-My-Zsh simplifies the process of customizing Zsh and provides an easy way to add plugins and themes.
 
 Web Site - <https://ohmyz.sh/>
 
 
 ## **What is Powerlevel10k?**
 
-**Powerlevel10k** is a highly customizable Zsh theme designed to work seamlessly with Oh-My-Zsh. 
+`Powerlevel10k` is a highly customizable Zsh theme designed to work seamlessly with Oh-My-Zsh. 
 It's known for its flexibility, speed, and eye-catching prompts. Powerlevel10k is feature-rich and 
 offers various prompt styles, colors, and a configuration wizard that allows you to customize your 
 terminal appearance to suit your preferences.
@@ -31,8 +32,6 @@ GitHub - <https://github.com/romkatv/powerlevel10k>
 ```zsh
 echo $SHELL
 ```
-
-
 
 2. install ZSH
 ```zsh
@@ -51,7 +50,7 @@ chsh -s $(which zsh)
 echo $SHELL
 ```
 
-5install oh-my-zsh via curl
+5. install oh-my-zsh via curl
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
@@ -92,5 +91,4 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 14. add 'zsh-autosuggestions' in '.zshrc'
 
-```bash
 
