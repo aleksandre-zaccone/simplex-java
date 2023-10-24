@@ -30,8 +30,8 @@ By default, these generated getter and setter methods are public, but you have t
 1. `AccessLevel.PUBLIC`: The generated methods and fields will have public visibility, accessible from anywhere.
 2. `AccessLevel.PRIVATE`: The generated methods and fields will have private visibility, accessible only within the same class.
 3. `AccessLevel.PROTECTED`: The generated methods and fields will have protected visibility, accessible within the same package and subclasses.
-4.  `AccessLevel.PACKAGE`: The generated methods and fields will have package-private visibility, accessible within the same package.
-5.  `AccessLevel.MODULE`: The generated methods and fields will have module visibility, accessible within the same module.
+4. `AccessLevel.PACKAGE`: The generated methods and fields will have package-private visibility, accessible within the same package.
+5. `AccessLevel.MODULE`: The generated methods and fields will have module visibility, accessible within the same module.
 6. `AccessLevel.NONE`: No method or field is generated.
 
 Remember, these annotations aren't limited to individual fields. You can also apply them at the class level, which results in the automatic creation of getter and setter methods for all fields within the class. This streamlined approach not only reduces boilerplate code but also enhances the readability and maintainability of your Java code.
@@ -250,7 +250,8 @@ public class CreditCard {
 	public CreditCard(@NonNull String cardNumber, @NonNull String cardholderName, String expirationDate) {
 	     this.cardNumber = cardNumber;         
 	     this.cardholderName = cardholderName;         
-	     this.expirationDate = expirationDate;     } }`
+	     this.expirationDate = expirationDate;}
+}
 ```
 
 Example without Lombok:
@@ -278,10 +279,11 @@ The `@Data` annotation combines `@ToString`, `@EqualsAndHashCode`, `@Getter`, `@
 With Lombok:
 ```java
 @Data 
-public class CreditCard {     
-	private final String cardNumber;     
-	private String cardholderName;     
-	private String expirationDate; 
+public class CreditCard {
+    private final String cardNumber;
+    private String cardholderName;
+    private String expirationDate;
+}
 ```
 
 Example without Lombok:
@@ -303,8 +305,9 @@ public class CreditCard {
 	
 	@Override     
 	public boolean equals(Object o) {         
-	// equals implementation     } }`
-
+	// equals implementation     } 
+    }
+}
 ```
 
 ## @Value
