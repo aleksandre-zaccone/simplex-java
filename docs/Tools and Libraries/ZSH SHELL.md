@@ -1,6 +1,6 @@
 # **ZSH Shell Configuration**
 
-I've created this tutorial to demonstrate how I use my Ubuntu laptop for everyday work and to share 
+I've created this tutorial to demonstrate how I use my Arch laptop for everyday work and to share 
 my configuration with others. This guide will help you set up and optimize your shell environment 
 for increased efficiency on your Ubuntu system. You'll learn how to install and configure Zsh, 
 Oh-My-Zsh, and the Powerlevel10k theme. These tools will greatly enhance your command-line experience 
@@ -35,8 +35,8 @@ echo $SHELL
 
 2. install ZSH
 ```zsh
-sudo apt update
-sudo apt-get install zsh
+sudo pacman -Syu
+sudo pacman -S zsh
 ```
 
 3. switch default shell from bash to zsh, then logout and log in
