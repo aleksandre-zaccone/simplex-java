@@ -36,11 +36,11 @@ sudo systemctl status mariadb
 sudo mysql_secure_installation
 ```
 
-## Additional Resources:
+## Additional Resources
 
-ArchWiki MariaDB Page: https://wiki.archlinux.org/
+[ArchWiki MariaDB Page](https://wiki.archlinux.org)
 
-Official MariaDB Documentation: https://mariadb.org/documentation/
+[Official MariaDB Documentation](https://mariadb.org/documentation)
 
 
 
