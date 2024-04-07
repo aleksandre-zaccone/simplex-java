@@ -10,9 +10,8 @@ Join us and let's Java together !
 
 # **Java Core**
 
-## [1. Whats is Java](Core%20Java/1.%20Whats%20is%20Java.md)
-
-## [2. IntelliJ IDEA, Installation and Configuration](Core%20Java/2.%20IntelliJ%20IDEA,%20Installation%20and%20Configuration.md)
+- [Whats is Java](Core%20Java/1.%20Whats%20is%20Java.md)
+- [IntelliJ IDEA, Installation and Configuration](Core%20Java/2.%20IntelliJ%20IDEA,%20Installation%20and%20Configuration.md)
 <br>
 
 # **Java Books**
