@@ -1,4 +1,4 @@
-#!/home/aablotia/GitHub/simplex-java/venv/bin/python3
+#!/home/aablotia/IdeaProjects/simplex-java/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

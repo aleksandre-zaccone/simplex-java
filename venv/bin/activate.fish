@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/aablotia/GitHub/simplex-java/venv"
+set -gx VIRTUAL_ENV "/home/aablotia/IdeaProjects/simplex-java/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
