@@ -29,9 +29,16 @@ Join us and let's Java together !
 # **Spring Boot**
 
 - [Spring Boot and Exceptions Handling](Spring%20Boot/Spring%20Boot%20and%20Exceptions%20Handling.md)
-<br>
+
+- <br>
 
 # **Java Courses**
+
+<br>
+
+# **Linux**
+- [Arc Pacman commands](Linux/ArchPacmanCommands.md)
+- [MySql on Arch](Linux/MySQL%20on%20Arch.md)
 
 <br>
 
